@@ -1,0 +1,31 @@
+baseurl = "http://icaroseara.com/"
+languageCode = "en-us"
+title = "Icaro Seara's Blog"
+MetaDataFormat = "toml"
+theme = "hyde-x"
+disqusShortname = "blogicarosearacom"
+paginate = 10
+canonifyurls = true 
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+[author]
+    name = "Icaro Seara"
+[permalinks]
+    post = "/blog/:year/:month/:day/:title/"
+[taxonomies]
+    category = "categories"
+[params]
+     highlight = "sunburst"
+     
+     tagline = "Thoughts on code, programming, and technology."
+     
+     # Metadata used to drive integrations.
+     googleAnalytics = "UA-66659856-1"
+     gravatarHash = "fe04ea67b704f80b817a916dff771350"
+     
+     # Social
+     github = "https://github.com/icaroseara"
+     linkedin = "https://br.linkedin.com/in/icaroseara"
+     
